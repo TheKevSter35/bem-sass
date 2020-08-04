@@ -3,15 +3,14 @@ import Logo from '../img/logo.svg';
 function Nav() {
     return (
         <header>
-            <div class="inner">
-                <div class="logo__containter">
+            <div class="container">
+                <div class="logo">
                     <a href="/">
                     <img src={Logo} alt="Logo"/>
                     </a>
                 </div>
-                <div class="nav_containter">
+                <div class="nav">
                     <nav>
-                        <a href="/">Home</a>
                         <a href="/">Work</a>
                         <a href="/">About</a>
                         <a href="/">Contact</a>
